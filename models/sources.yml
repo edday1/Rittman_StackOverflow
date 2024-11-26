@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: stackoverflow
+    database: bigquery-public-data
+    schema: stackoverflow
+    tables:
+      - name: posts_questions
+        description: "StackOverflow questions data"
+      - name: posts_answers
+        description: "StackOverflow answers data"
+      - name: tags
+        description: "StackOverflow tags data"
+      - name: users
+        description: "StackOverflow user data"
